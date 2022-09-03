@@ -2,6 +2,7 @@
 Notebooks from my SURE Internship at Space Park Leicester 
 
 This repository contains all the finalised and working notebooks from my time on my SURE internship, with comments such that it can be understood by others.
+It also contains PDFs with details on various data variables and access sources.
 
 **For ECMWF data**, please use the notebook provided by ECMWF. It is much higher quality than the one I made personally, link here: https://github.com/ecmwf/ecmwf-opendata
 
