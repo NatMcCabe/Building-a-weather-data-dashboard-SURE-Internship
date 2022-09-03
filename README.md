@@ -1,4 +1,4 @@
-# SURE-Internship
+# Building a Weather Data Dashboard (SURE Internship)
 Notebooks from my SURE Internship at Space Park Leicester 
 
 This repository contains all the finalised and working notebooks from my time on my SURE internship, with comments such that it can be understood by others.
