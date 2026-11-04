@@ -10,3 +10,4 @@ pyreadr>=0.5.9
 wget>=3.2
 windrose>=2.0.0
 xarray>=2026.9.0
+streamlit
