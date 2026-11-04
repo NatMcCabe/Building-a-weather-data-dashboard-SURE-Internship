@@ -1,0 +1,31 @@
+[project]
+name = "building-a-weather-data-dashboard-sure-internship"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cdsapi>=0.7.7",
+    "dash>=4.5.0",
+    "datapoint>=0.13.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "pyreadr>=0.5.9",
+    "wget>=3.2",
+    "windrose>=2.0.0",
+    "xarray>=2026.9.0",
+]
+
+[project.scripts]
+building-a-weather-data-dashboard-sure-internship = "building_a_weather_data_dashboard_sure_internship:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
