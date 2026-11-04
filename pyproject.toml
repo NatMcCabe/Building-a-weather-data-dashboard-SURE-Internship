@@ -18,13 +18,6 @@ dependencies = [
     "xarray>=2026.9.0",
 ]
 
-[project.scripts]
-building-a-weather-data-dashboard-sure-internship = "building_a_weather_data_dashboard_sure_internship:main"
-
-[build-system]
-requires = ["uv_build>=0.13.7,<0.14.0"]
-build-backend = "uv_build"
-
 [dependency-groups]
 dev = [
     "ipykernel>=7.4.0",

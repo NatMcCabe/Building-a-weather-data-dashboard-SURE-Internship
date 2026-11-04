@@ -1,18 +1,8 @@
 """Launcher for the Streamlit dashboard notebook.
+Streamlit only runs .py files, so we create a combined notebook with each cell and execute that instead
 
-Streamlit only runs raw ``.py`` files, so this module executes the code cells
-of ``Streamlit working - Commented.ipynb`` inside Streamlit's script context.
+uv run streamlit run app.py
 
-Edit the notebook; run:
-
-    uv run streamlit run app.py
-
-Two caveats worth knowing:
-
-* The notebook is not runnable in Jupyter on its own — the ``st.*`` calls need
-  Streamlit's server runtime.
-* Streamlit watches ``app.py``, not the notebook, so editing the notebook needs
-  a manual **Rerun** (or a restart) to show up.
 """
 
 from __future__ import annotations
